@@ -102,6 +102,9 @@ flowchart TB
 
 ### System Components
 
+<img width="1024" height="742" alt="image" src="https://github.com/user-attachments/assets/73c2ea40-9491-4c37-87f0-cb357c2af406" />
+
+
 #### Remote Control System
 - **RC Controller V3**: Main control unit with joystick input
 - **NRF Transmitter**: Wireless communication module
