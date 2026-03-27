@@ -128,6 +128,9 @@ flowchart TB
 
 ### Locomotion & Movement
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7444d4dd-f3e3-4c8f-8262-a08bffc8f423" />
+
+
 - **6 Walking Gaits**: Tripod, Ripple, Wave, Quadruped, Bipedal, and Hop
 - **18 Degrees of Freedom**: Smooth and natural movement
 - **Dynamic Stride Length**: Adaptive to different surfaces
