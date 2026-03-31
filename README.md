@@ -222,7 +222,7 @@ Crawlpod/
 
 ![Training Reward Curves](docs/figures/fig1_training_reward.jpeg)
 
-**Training Reward Components — Crawler-HEXA Base**
+**Training Reward Components — CrawlPod Base**
 
 Reward components during hexapod locomotion policy training. Total reward saturates around 0.85, with position tracking contributing the largest share. Energy penalty remains minimal, indicating efficient gait discovery.
 
@@ -230,7 +230,7 @@ Reward components during hexapod locomotion policy training. Total reward satura
 
 ![Thermal Comparison](docs/figures/fig2_thermal_comparison.jpeg)
 
-**Thermal-Aware Reward Shaping — Crawler-HEXA Policy**
+**Thermal-Aware Reward Shaping — CrawlPod Policy**
 
 Thermal-aware reward shaping keeps servo temperature below T_max (80°C) by modulating torque output. Joint tracking error increases marginally (~15%) as a tradeoff, but prevents thermal shutdown during extended operation.
 
@@ -265,17 +265,14 @@ Natural hexapod walking with sinusoidal lateral sway. The policy closely tracks 
 High-speed hexapod gait over 11.31 m. Policy maintains trajectory tracking despite increased ground reaction forces and dynamic instability during aerial phases.
 
 
-**Reward Component Weights — Crawler-HEXA Policy**
-
-Reward component weights for walking and climbing policies. Climbing mode increases grip force and terrain adaptation rewards while reducing orientation constraints to allow body tilting.
 
 ### Navigation Success Rate
 
 ![Benchmark Success](docs/figures/fig9_benchmark_success.jpeg)
 
-**Motion Tracking Success Rate — Crawler-HEXA vs Baseline**
+**Motion Tracking Success Rate — CrawlPod vs Baseline**
 
-Crawler-HEXA outperforms decoupled IK baseline across all scenarios, with the largest gains in vertical climbing (+48.3%) and flip recovery (+53.1%). NL Command Chain is exclusive to Claude-integrated pipeline.
+CrawlPod outperforms decoupled IK baseline across all scenarios, with the largest gains in vertical climbing (+48.3%) and flip recovery (+53.1%). NL Command Chain is exclusive to Claude-integrated pipeline.
 
 ## Getting Started
 
