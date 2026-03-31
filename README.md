@@ -227,7 +227,7 @@ Crawlpod/
 
 ### Training Performance
 
-![Training Reward Curves](docs/figures/fig1_training_reward.png)
+![Training Reward Curves](docs/figures/fig1_training_reward.jpeg)
 
 **Training Reward Components — Crawler-HEXA Base**
 
@@ -235,7 +235,7 @@ Reward components during hexapod locomotion policy training. Total reward satura
 
 ### Thermal-Aware RL
 
-![Thermal Comparison](docs/figures/fig2_thermal_comparison.png)
+![Thermal Comparison](docs/figures/fig2_thermal_comparison.jpeg)
 
 **Thermal-Aware Reward Shaping — Crawler-HEXA Policy**
 
@@ -243,7 +243,7 @@ Thermal-aware reward shaping keeps servo temperature below T_max (80°C) by modu
 
 ### Sim-to-Real Transfer
 
-![Sim-to-Real Temperature](docs/figures/fig3_sim2real_temperature.png)
+![Sim-to-Real Temperature](docs/figures/fig3_sim2real_temperature.jpeg)
 
 **Sim-to-Real Temperature Model Validation**
 
@@ -251,7 +251,7 @@ Sim-to-real temperature model validation. Simulated thermal profile closely matc
 
 ### Impact Reduction
 
-![Impact Reduction](docs/figures/fig4_impact_reduction.png)
+![Impact Reduction](docs/figures/fig4_impact_reduction.jpeg)
 
 **Foot Impact Reduction During Step-Down Events**
 
@@ -259,27 +259,18 @@ Foot impact reduction during step-down events. The RL policy learns to decelerat
 
 ### Trajectory Tracking
 
-![Walking Trajectory](docs/figures/fig5_walking_trajectory.png)
+![Walking Trajectory](docs/figures/fig5_walking_trajectory.jpeg)
 
 **Walking Trajectory — Reference vs Policy**
 
 Natural hexapod walking with sinusoidal lateral sway. The policy closely tracks the reference trajectory with minimal drift across 3.77 m of forward locomotion.
 
-![Running Trajectory](docs/figures/fig6_running_trajectory.png)
+![Running Trajectory](docs/figures/fig6_running_trajectory.jpeg)
 
 **Running Trajectory — Reference vs Policy**
 
 High-speed hexapod gait over 11.31 m. Policy maintains trajectory tracking despite increased ground reaction forces and dynamic instability during aerial phases.
 
-![Climbing Trajectory](docs/figures/fig7_climbing_trajectory.png)
-
-**Vertical Climb Trajectory — Reference vs Policy**
-
-Vertical mesh climbing using alternating tripod grip-release gait. Policy achieves 1.82 m vertical ascent with 94% grip success rate. Slip events at 0.6 m and 1.3 m are autonomously recovered.
-
-### Reward Design
-
-![Reward Weights](docs/figures/fig8_reward_weights.png)
 
 **Reward Component Weights — Crawler-HEXA Policy**
 
@@ -287,7 +278,7 @@ Reward component weights for walking and climbing policies. Climbing mode increa
 
 ### Navigation Success Rate
 
-![Benchmark Success](docs/figures/fig9_benchmark_success.png)
+![Benchmark Success](docs/figures/fig9_benchmark_success.jpeg)
 
 **Motion Tracking Success Rate — Crawler-HEXA vs Baseline**
 
