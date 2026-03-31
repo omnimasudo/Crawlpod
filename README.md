@@ -1,16 +1,8 @@
 # Crawlpod - Hexapod Robot Project
 
+
 <div align="center">
-
-![Hexapod Robot](https://img.shields.io/badge/Robot-Hexapod-2DA44E?style=for-the-badge)
-![Arduino](https://img.shields.io/badge/Controller-Arduino%20Mega-00979D?style=for-the-badge&logo=arduino)
-![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B)
-![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-E34F26?style=for-the-badge)
-![18DOF](https://img.shields.io/badge/DOF-18%20Degrees-FFD700?style=for-the-badge)
-![Servos](https://img.shields.io/badge/Servos-18x%20US3230-FF6B6B?style=for-the-badge)
-
-*A 3D-printed, Arduino-powered hexapod robot with custom PCB, remote control, and personality!*
-
+    <img src="docs/figures/banner.jpeg" alt="Crawlpod Banner" width="100%" />
 </div>
 
 ---
@@ -102,7 +94,11 @@ flowchart TB
 
 ### System Components
 
-<img width="1024" height="742" alt="image" src="https://github.com/user-attachments/assets/73c2ea40-9491-4c37-87f0-cb357c2af406" />
+
+<video controls>
+    <source src="docs/figures/System-Component.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 
 #### Remote Control System
@@ -128,7 +124,7 @@ flowchart TB
 
 ### Locomotion & Movement
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7444d4dd-f3e3-4c8f-8262-a08bffc8f423" />
+<img alt="image" src="docs\figures\Locomotion .jpeg" />
 
 
 - **6 Walking Gaits**: Tripod, Ripple, Wave, Quadruped, Bipedal, and Hop
