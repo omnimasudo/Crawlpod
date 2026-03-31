@@ -95,10 +95,7 @@ flowchart TB
 ### System Components
 
 
-<video controls>
-    <source src="docs/figures/System-Component.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+![System Component Animation](docs/figures/System-Component.gif)
 
 
 #### Remote Control System
