@@ -1,3 +1,8 @@
+Official X account: https://x.com/Crawlpod1
+
+CA: 
+
+
 # Crawlpod - Hexapod Robot Project
 
 
